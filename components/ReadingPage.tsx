@@ -5,6 +5,16 @@ import { BilingualDisplay } from './BilingualDisplay';
 export const ReadingPage: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto bg-paper p-8 md:p-12 rounded-3xl shadow-xl border-4 border-white">
+      {/* Instruction Banner */}
+      <div className="bg-yellow-50 border-2 border-yellow-200 rounded-2xl p-4 mb-8 text-center">
+         <p className="text-2xl font-bold text-yellow-600">
+            Open your book to page 9 and 10
+         </p>
+         <p className="text-gray-500 text-base mt-1 font-medium">
+            (請翻開書本第 9 和 10 頁)
+         </p>
+      </div>
+
       {/* Header */}
       <div className="border-b-2 border-dashed border-gray-300 pb-6 mb-8 flex justify-between items-end">
         <div>
